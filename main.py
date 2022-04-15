@@ -21,7 +21,7 @@ lost_times = 0
 while True:
     j = 0
     decision = input('Type "play" to play the game, "results" to show the scoreboard, and "exit" to quit: ')
-    word_list = ['python', 'java', 'swift', 'javascript']
+    word_list = ('python', 'java', 'swift', 'javascript')
     chosen = random.choice(word_list)
     chosen_list = list(chosen)
     answer = list('-' * len(chosen))
